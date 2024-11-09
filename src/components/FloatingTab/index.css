@@ -1,0 +1,37 @@
+.arrow{
+    background-color: blue;
+    color: #fff;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.button-book-but{
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(0, 81, 255);
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.inr{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.but-p{
+    color: #000;
+    font-size: 12px;
+    margin-top: 0px;
+}
