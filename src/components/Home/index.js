@@ -6,6 +6,7 @@ import {useState, useEffect} from 'react'
 import {Navigate} from 'react-router-dom'
 import Discover from '../Discover'
 import Services from '../Services'
+import AboutUs from '../AboutUs';
 
 const Home=()=>{
     useEffect(()=>{
@@ -79,6 +80,9 @@ const Home=()=>{
             </div>
             <div id='services'>
                 <Services />
+            </div>
+            <div>
+                <AboutUs />
             </div>
         </div>
     )
