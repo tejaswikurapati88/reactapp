@@ -1,0 +1,9 @@
+import './index.css'
+
+const Bookings=()=>{
+    return (
+        <h1>Bookings</h1>
+    )
+}
+
+export default Bookings

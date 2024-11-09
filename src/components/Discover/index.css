@@ -1,0 +1,59 @@
+.discover-cont{
+    align-items: center;
+    margin-top: 70px;
+}
+.comments-con{
+    align-self: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.comment{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(179, 178, 178);
+    width: 30%;
+    justify-content: space-between;
+}
+@media (max-width: 576px) {
+    .comment{
+        width: 50%;
+    }
+}
+.comm-img{
+    height: 300px;
+    margin-bottom: 20px;
+}
+.profi-cont{
+    display: flex;
+    align-items: center;
+}
+.profile-img{
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+}
+
+.profile-name{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.name-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.star{
+    color: gold;
+}
+span{
+    color: deepskyblue;
+}
