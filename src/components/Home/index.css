@@ -88,6 +88,14 @@
     padding: 15px;
     height: 60px;
 }
+@media (max-width: 768px) {
+    .inp{
+        width: 46%;
+    }
+    .inp-num{
+        width: 23%;
+    }
+}
 .home-cont{
     position: relative;
 }

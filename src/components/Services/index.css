@@ -22,7 +22,12 @@
     font-size: 18px;
 }
 @media (max-width: 576px) {
-    .com{
+    .comment{
         width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .comment{
+        width: 50%;
     }
 }

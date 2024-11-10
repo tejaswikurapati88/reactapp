@@ -1,8 +1,11 @@
 import './index.css'
+import { GiHamburgerMenu } from "react-icons/gi";
+
 const NavBar=()=>{
     return (
         <div className='nav-bar'>
                 <a href='#home'><h1 className='nav-logo'>Brisphere</h1></a>
+                <GiHamburgerMenu className='ham' />
                 <ul className='nav-ul'>
                     <a href='#discover'>
                         <li className='nav-li'>Discover</li>

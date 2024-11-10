@@ -25,3 +25,14 @@ a{
     list-style-type: none;
     display: inline;
 }
+.ham{
+    display: none;
+}
+@media (max-width: 576px) {
+    .ham{
+        display: block;
+    }
+    .nav-ul{
+        display: none;
+    }
+}
