@@ -36,7 +36,24 @@ const Home=()=>{
             <div id='home' className='bg-home-container'>
                 {isbook? 
                 <div className='home-cont'>
-                <form className='form'>
+                    {isorder ? <div className='order-cont'>
+                        <div>
+                            <h1 className='footer-h'>{name}</h1>
+                            <p className='footer-pa'>+91 - {number}<br/> {email}<br/> {adult} Adults and {child} Children</p>
+                        </div>
+                            <div className='tick-cont'>
+                                <img className='tick-img' 
+                                src='https://res.cloudinary.com/dkvptcm7q/image/upload/v1731172340/ok-1976099_1280_nzhoee.png' 
+                                alt='tick-image' />
+                                <div>
+                                    <h1 className='footer-h' >Order Complete</h1>
+                                    <p className='foter-pa'>have questions?<br/><span className='contactus'>contact us</span></p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    : 
+                    <form className='form'>
                     <input className='inp' 
                     onChange={(e)=> setName(e.target.value)} 
                     value={name} type='text' 
@@ -61,7 +78,8 @@ const Home=()=>{
                     onChange={(e)=> setChild(e.target.value)} 
                     value={child} type='number' 
                     placeholder='children'/>
-                  </form></div>: <div className='home-cont'>
+                  </form>}
+                </div>: <div className='home-cont'>
                     <div className='sub-home'>
                         <h1 className='main-heading'>Work from<br/> Ladakh</h1>
                         <p className='main-desc'>India's first true digital tourism ecosystem</p>
