@@ -15,7 +15,7 @@ const Bookings=()=>{
             <NavBar />
         <div className='bg-home-container'>
             <div className='home-cont book'>
-                  <form className='form'>
+            <form className='form'>
                     <input className='inp' 
                     onChange={(e)=> setName(e.target.value)} 
                     value={name} type='text' 
