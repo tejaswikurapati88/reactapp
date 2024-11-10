@@ -146,7 +146,7 @@ const Home=()=>{
             <div id='services'>
                 <Services />
             </div>
-            <div>
+            <div id='about'>
                 <AboutUs />
             </div>
         </div>
