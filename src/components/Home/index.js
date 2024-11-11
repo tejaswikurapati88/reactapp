@@ -36,7 +36,8 @@ const Home=()=>{
             <div id='home' className='bg-home-container'>
                 {isbook? 
                 <div className='home-cont'>
-                    {isorder ? <div className='order-cont'>
+                    {isorder ? 
+                    <div className='order-cont'>
                         <div>
                             <h1 className='footer-h'>{name}</h1>
                             <p className='footer-pa'>+91 - {number}<br/> {email}<br/> {adult} Adults and {child} Children</p>
@@ -88,6 +89,8 @@ const Home=()=>{
                             <AiFillInstagram className='home-icons' />
                         </div>
                     </div>
+                    <img src='https://res.cloudinary.com/dkvptcm7q/image/upload/v1731302757/pexels-julia-volk-5201435_krw2wn.jpg'
+                    alt='img' className='home-sm-img' />
                     <img src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1731144709/pexels-sagui-andrea-200115-618833_toi6mf.jpg" 
                     alt='img' className='home-img'/>
                 </div>}
@@ -108,7 +111,7 @@ const Home=()=>{
                     </div>
                     <div className='vl'></div>
                     <div className='container-sub'>
-                        <p className='checkin'>ROOMS</p>
+                        <p className='checkin rm'>ROOMS</p>
                         {isorder? <p className='ord-p'>{num}</p>: 
                         <div className='opt-butons'>
                             <button type='button' onClick={onMinus} className='mi btn'>-</button>
