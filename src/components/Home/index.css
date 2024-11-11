@@ -80,14 +80,7 @@
     font-size: 30px;
     margin-right: 10px;
 }
-.tick-img{
-    height: 200px;
-}
-.tick-cont{
-    width: 50%;
-    display: flex;
-    align-items: center;
-}
+
 .contactus{
     color: rgb(73, 73, 240);
 }
@@ -220,7 +213,22 @@
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
+.tick-img{
+    height: 200px;
+}
+.tick-cont{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
 @media (max-width: 576px) {
+    .tick-cont{
+        width: 100%;
+        
+    }
+    .tick-img{
+        height: 100px;
+    }
     .order-cont{
         padding: 20px;
         align-items: center;
